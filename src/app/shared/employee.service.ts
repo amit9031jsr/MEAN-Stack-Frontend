@@ -19,4 +19,8 @@ export class EmployeeService {
     return this.http.post(this.baseURL, emp);
   }
 
+  getEmployeeList() {
+    return this.http.get(this.baseURL);
+  }
+
 }
